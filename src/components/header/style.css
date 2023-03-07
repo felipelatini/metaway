@@ -1,0 +1,96 @@
+#Header{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+#containerHeader_Header {
+  display: flex;
+  flex-grow: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#vazioHeader_Header {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 1;
+}
+
+#containerDescricao {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 1;
+}
+
+.titleBlack_Header {
+  font-size: 14px;  
+  font-weight: 600;
+  color: rgb(26, 26, 26);
+
+  margin-top: 2;
+}
+
+.titleRed_Header {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(172, 28, 7);
+
+  margin-left: 2px;
+}
+
+#containerLogo_Header {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  flex-basis: 1;
+
+  margin-right: 10px;
+}
+
+#containerLogo_Header img { 
+  margin-right: 10;
+
+  height: 42px;
+  width: auto;  
+}
+
+#containerMenu_Header{
+  display: flex;
+  flex-grow: 0;
+  background-color: rgb(172, 28, 7);
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menu_Header{
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 1;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.title_Menu{
+  font-weight: 600;
+  color: white;  
+}
+
+#endBarRed_Header{
+  background-color: rgb(172, 28, 7);
+  height: 8px;
+}
+
+#endBarBlack_Header{
+  background-color: rgb(26, 26, 26);
+  height: 3px;
+}

@@ -1,0 +1,179 @@
+#header_Home{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+.containerLoading_Home {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerLoading_Home img {
+  height: auto;
+  width: 100px;
+}
+
+.containerLoading_Home label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#containerBody_Home{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;  
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#itens_Home{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#filter_Home{
+  display: flex;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.capa_Home{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+
+  padding-top: 5px;
+  padding-right: 5%;
+  padding-bottom: 5px;
+  padding-left: 5%;
+  margin-top: 10px;
+}
+
+.capaClient_Home{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  
+  margin-bottom: 10px;
+}
+
+.capaPhotoClient_Home{
+  height: 50px;
+  width: auto;
+}
+
+.capaNameClient_Home{
+  display: flex;
+  flex-grow: 0;
+  align-items: center;
+}
+
+.capaNameClient_Home label{
+  margin-left: 10px;
+}
+
+.itemGreater500_Home{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  background-color: aliceblue;
+
+  margin-bottom: 8px;
+  min-height: 40px;
+}
+
+.itemLess500_Home{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  background-color: aliceblue;
+
+  margin-bottom: 8px;
+  min-height: 40px;
+}
+
+.type_Home{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  align-items: center;
+
+  padding-left: 10px;
+  min-width: 140px;
+}
+
+.contact_Home{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+
+  padding-right: 10px;
+}
+
+.itemColumn1_Home{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.contact_Home{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+
+  padding-right: 10px;
+}
+
+#containerNoRegistry_Home{
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+#containerNoRegistry_Home label{
+  font-weight: 600;
+  text-align: center;
+}
+
+.containerMessage_Home {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerMessage_Home label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#footer_Home{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+.marginTop10_Home{
+  margin-top: 10px;
+}
+
+.marginBottom10_Home{
+  margin-bottom: 10px;
+}
+
+.marginLeft10_Home{
+  margin-left: 10px;
+}

@@ -1,0 +1,98 @@
+#InputMasked{
+  display: flex;
+  flex-direction: column;
+}
+
+#description_InputMasked{
+  margin-bottom: 5px;
+}
+
+#description_InputMasked label{
+  font-weight: 600;
+}
+
+#bodyFocu_InputMasked{
+  display: flex;
+  flex-direction: row;
+  border: 2px rgb(172, 28, 7) solid;
+  border-radius: 5px;
+}
+
+#bodyUnFocu_InputMasked{
+  display: flex;
+  flex-direction: row;
+  border: 2px rgb(128, 130, 133) solid;  
+  border-radius: 5px;
+}
+
+.bodyImage_InputMasked{
+  display: flex;
+  flex-direction: "row";
+  flex-grow: 0;
+
+  margin-top: 10px;
+}
+
+.bodyImage_InputMasked img{
+  width: 27px;
+  height: 34px;  
+}
+
+#bodyFieldImage_InputMasked{
+  display: flex;
+  flex-grow: 1;
+
+  padding-left: 26px;
+  padding-right: 10px;
+}
+
+#bodyFieldNoImage_InputMasked{
+  display: flex;
+  flex-grow: 1;
+
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.required_InputMasked{
+  border: none;
+  outline: none;
+
+  border-bottom: 2px solid rgb(172, 28, 7);
+
+  font-family: Poppins-SemiBold;
+  color: #555555;
+  line-height: 1.2;
+  
+  display: block;
+  height: 34px;
+  width: 100%;
+  background: transparent;
+  padding: 0 5px;
+
+  margin: 3px 0;
+}
+
+.noRequired_InputMasked{
+  border: none;
+  outline: none;  
+
+  border-bottom: 2px solid silver;
+
+  font-family: Poppins-SemiBold;
+  color: #555555;
+  line-height: 1.2;
+  
+  display: block;
+  height: 34px;
+  width: 100%;
+  background: transparent;
+  padding: 0 5px;  
+
+  margin: 3px 0;
+}
+
+.marginRight10_InputMasked{
+  margin-right: 10px;
+}
+

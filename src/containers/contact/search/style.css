@@ -1,0 +1,242 @@
+#SearchContact{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  margin-bottom: 10px;
+}
+
+#header_SearchContact{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+
+  margin-top: 10px;
+}
+
+.containerLoading_SearchContact {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerLoading_SearchContact img {
+  height: auto;
+  width: 100px;
+}
+
+.containerLoading_SearchContact label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#containerBody_SearchContact{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;  
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#titlesRow_SearchContact{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;  
+
+  border-bottom-width: 2px;
+  border-bottom-style: solid;  
+  border-bottom-color: rgb(26, 26, 26);
+
+  margin-top: 8px;
+  height: 40px;
+}
+
+#titlesColumn_SearchContact{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;  
+
+  border-bottom-width: 2px;
+  border-bottom-style: solid;  
+  border-bottom-color: rgb(26, 26, 26);
+
+  margin-top: 8px;  
+}
+
+#tagTitle_SearchContact{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  align-items: center;
+    
+  padding-left: 5px;
+  min-width: 140px;
+}
+
+#tagTitle_SearchContact{
+  font-weight: 600;
+}
+
+.typeTitle_SearchContact{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  align-items: center;
+    
+  padding-left: 10px;
+  min-width: 140px;
+}
+
+#textTitle_SearchContact{
+  font-weight: 600;
+}
+
+#contactTitle_SearchContact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+  
+  padding-right: 10px;
+}
+
+#itens_SearchContact{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.itemGreater500_SearchContact{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  background-color: aliceblue;
+
+  margin-bottom: 8px;
+  min-height: 40px;
+}
+
+.itemLess500_SearchContact{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  background-color: aliceblue;
+
+  margin-bottom: 8px;
+  min-height: 40px;
+}
+
+.itemColumn1_SearchContact{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.itemRow1_SearchContact{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;  
+  justify-content: center;
+}
+
+.type_SearchContact{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  align-items: center;
+
+  padding-left: 10px;
+  min-width: 140px;
+}
+
+.contact_SearchContact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+
+  padding-right: 10px;
+}
+
+.buttonItem_SearchContact {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  align-items: center;
+
+  padding-right: 10px;
+}
+
+.buttonItemSelect_SearchContact{
+  height: 32px;
+  width: 32px;
+}
+
+.buttonItemDelete_SearchContact{
+  height: 26px;
+  width: 26px;
+}
+
+#buttonsRow_SearchContact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerMessage_SearchContact {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerMessage_SearchContact label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#buttonsColumn_SearchContact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerButton_SearchContact{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  justify-content: center;
+}
+
+#buttonNew_SearchContact{
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+  
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: rgb(172, 28, 7);
+   
+  width: 120px;
+  height: 46px;
+}
+
+#buttonNew_SearchContact label{
+  color: white;
+  font-weight: 600;
+}
+
+.marginTop10_SearchContact{
+  margin-top: 10px;
+}
+
+.marginLeft10_SearchContact{
+  margin-left: 10px;
+}

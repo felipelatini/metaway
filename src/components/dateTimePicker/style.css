@@ -1,0 +1,73 @@
+#datePicker{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+#description_DatePicker{
+  margin-bottom: 5px;
+}
+
+#description_DatePicker label{  
+  font-weight: 600;
+}
+
+#bodyFocu_DatePicker{
+  display: flex;
+  flex-direction: row;
+  border: 2px rgb(172, 28, 7) solid;
+  border-radius: 5px;
+}
+
+#bodyUnFocu_DatePicker{
+  display: flex;
+  flex-direction: row;
+  border: 2px rgb(128, 130, 133) solid;
+  border-radius: 5px;
+}
+
+#bodyField_DatePicker{
+  display: flex;
+  flex-grow: 1;
+
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.required_DatePicker{
+  border: none;
+  outline: none;
+
+  border-bottom: 2px solid rgb(172, 28, 7);
+
+  font-family: Poppins-SemiBold;
+  color: #555555;
+  line-height: 1.2;
+  
+  display: block;
+  height: 34px;
+  width: 100%;
+  background: transparent;
+  padding: 0 5px;
+
+  margin: 3px 0;
+}
+
+.noRequired_DatePicker{  
+  border: none;
+  outline: none;  
+
+  border-bottom: 2px solid silver;
+
+  font-family: Poppins-SemiBold;
+  color: #555555;
+  line-height: 1.2;
+  
+  display: block;
+  height: 34px;
+  width: 100%;
+  background: transparent;
+  padding: 0 5px;  
+
+  margin: 3px 0;
+}

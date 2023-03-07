@@ -1,0 +1,133 @@
+/* No File */
+#Input{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+#descriptionLogin_Input{
+  margin-left: 10px;
+  margin-bottom: 5px;  
+}
+
+#descriptionLogin_Input label{  
+  font-weight: 600;
+}
+
+#description_Input{
+  margin-bottom: 5px;
+}
+
+#description_Input label{  
+  font-weight: 600;
+}
+
+#bodyFocu_Input{
+  display: flex;
+  flex-direction: row;
+  border: 2px rgb(172, 28, 7) solid;
+  border-radius: 5px;
+}
+
+#bodyUnFocu_Input{
+  display: flex;
+  flex-direction: row;
+  border: 2px rgb(128, 130, 133) solid;  
+  border-radius: 5px;
+}
+
+.bodyImage_Input{
+  margin-top: 10px;
+  padding-left: 26px;
+  width: 12%;
+}
+
+.bodyImage_Input img{
+  width: 27px;
+  height: 34px;
+}
+
+#bodyFieldImage_Input{
+  display: flex;
+  flex-grow: 1;
+
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+#bodyFieldNoImage_Input{
+  display: flex;
+  flex-grow: 1;
+
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.required_Input{
+  border: none;
+  outline: none;
+
+  border-bottom: 2px solid rgb(172, 28, 7);
+
+  font-family: Poppins-SemiBold;
+  color: #555555;
+  line-height: 1.2;
+
+  display: block;
+  height: 34px;
+  width: 100%;
+  background: transparent;
+  padding: 0 5px;
+
+  margin: 3px 0;
+}
+
+.noRequired_Input{  
+  border: none;
+  outline: none;  
+
+  border-bottom: 2px solid #555555;
+
+  font-family: Poppins-SemiBold;
+  color: #555555;
+  line-height: 1.2;
+
+  display: block;
+  height: 34px;
+  width: 100%;
+  background: transparent;
+  padding: 0 5px;  
+
+  margin: 3px 0;
+}
+
+/* File */
+.file_Input{
+  display: none;
+}
+
+.input_Input{
+  display: flex;
+  flex-grow: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#containerCamera_Input{
+  margin-left: 110px;
+  margin-top: -25px;
+}
+
+#camera_Input{
+  height: 36px;
+  width: 36px;
+}
+
+.foto_Input{
+  border-radius: 10%;
+  height: 100px;
+  width: auto;
+}

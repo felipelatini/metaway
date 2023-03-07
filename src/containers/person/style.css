@@ -1,0 +1,159 @@
+#header_Person{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+.containerLoading_Person{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerLoading_Person img{
+  height: auto;
+  width: 100px;
+}
+
+.containerLoading_Person label{
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#containerBody_Person{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;  
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#conteinerFields_Person{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.containerFieldColumn_Person{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  margin-top: 10px;
+}
+
+.containerFieldRow_Person{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  margin-top: 10px;
+}
+
+.fieldFlex0_Person{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+.fieldFlex1_Person{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.containerMessage_Person{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerMessage_Person img{
+  height: auto;
+  width: 100px;
+}
+
+.containerMessage_Person label{
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#buttons_Person{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  justify-content: center;
+
+  margin-bottom: 10px;
+}
+
+#buttonRed_Person{
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  background-color: rgb(172, 28, 7);
+
+  margin-top: 10px;
+
+  width: 120px;
+  height: 46px;  
+}
+
+#buttonRed_Person label{
+  color: white;
+  font-weight: 600;  
+}
+
+.buttonBlack_Person{
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 10px;
+  background-color: rgb(26, 26, 26);
+
+  margin-top: 10px;
+
+  width: 120px;
+  height: 46px;  
+}
+
+.buttonBlack_Person label{
+  color: white;
+  font-weight: 600;
+}
+
+#footer_Person{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+.maxWidth170_Person{
+  max-width: 170px;
+}
+
+.maxWidth190_Person{
+  max-width: 190px;
+}
+
+.marginTop10_Person{
+  margin-top: 10px;
+}
+
+.marginLeft5_Person{
+  margin-left: 5px;
+}
+
+.marginLeft10_Person{
+  margin-left: 10px;
+}

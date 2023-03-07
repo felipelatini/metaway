@@ -1,0 +1,169 @@
+#header_User{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+.containerLoading_User {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerLoading_User img {
+  height: auto;
+  width: 100px;
+}
+
+.containerLoading_User label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#containerBody_User{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;  
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#conteinerFields_User{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.containerFieldColumn_User{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  margin-top: 10px;
+}
+
+.containerFieldRow_User{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  margin-top: 10px;
+}
+
+.maxWidth170_User{
+  max-width: 170px;
+}
+
+.fieldFlex0_User{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+.fieldFlex1_User{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#spacePassword_User{
+  display: flex;
+  flex-grow: 0;
+  background-color: grey;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 20px;
+  height: 2px;
+}
+
+.marginPassword_User{
+  margin-top: 20px;
+}
+
+.alignPassword_User{  
+  align-items: center;
+}
+
+.buttonAlterPassword_User{
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.containerMessage_User {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerMessage_User label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#buttons_User{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  justify-content: center;
+}
+
+#buttonConfirm_User {
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: rgb(172, 28, 7);
+
+  margin-top: 10px;
+
+  width: 120px;
+  height: 46px;  
+}
+
+#buttonConfirm_User label {
+  color: white;
+  font-weight: 600;  
+}
+
+#buttonConfirmReturn_User {
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: rgb(26, 26, 26);
+
+  margin-top: 10px;
+
+  width: 120px;
+  height: 46px;  
+}
+
+#buttonConfirmReturn_User label {
+  color: white;
+  font-weight: 600;  
+}
+
+#containerFooter_User{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+.marginTop10_User{
+  margin-top: 10px;
+}
+
+.marginLeft10_User{
+  margin-left: 10px;
+}

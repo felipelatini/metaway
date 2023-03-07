@@ -1,0 +1,1 @@
+export const BASE_URL = "https://demometaway.vps-kinghost.net:8485/api/"

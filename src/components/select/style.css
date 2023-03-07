@@ -1,0 +1,73 @@
+#Select{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+#descricao_Select{
+  margin-bottom: 5px;
+}
+
+#descricao_Select label{
+  font-weight: 600;
+}
+
+#corpoFocu_Select{
+  display: flex;
+  flex-direction: row;
+  border: 2px rgb(172, 28, 7) solid;
+}
+
+#corpoUnFocu_Select{
+  display: flex;
+  flex-direction: row;
+  border: 2px rgb(128, 130, 133) solid;  
+}
+
+#corpoCampoSemImagem_Select{
+  display: flex;
+  flex-grow: 1;
+    
+  padding-left: 26px;
+  padding-right: 26px;  
+}
+
+.obrigatorio_Select{  
+  position: relative;
+  border: none;
+  outline: none;
+
+  border-bottom: 2px solid rgb(172, 28, 7);
+
+  font-family: Poppins-SemiBold;
+  color: #555555;
+  line-height: 1.2;
+  
+  display: block;
+  height: 34px;
+  width: 100%;
+  background: transparent;
+  padding: 0 5px;
+
+  margin: 3px 0;
+}
+
+.naoObrigatorio_Select{  
+  position: relative;
+  border: none;
+  outline: none;
+
+  border-bottom: 2px solid silver;
+
+  font-family: Poppins-SemiBold;
+  color: #555555;
+  line-height: 1.2;
+  
+  display: block;
+  height: 34px;
+  width: 100%;
+  background: transparent;
+  padding: 0 5px;
+
+  margin: 3px 0;
+}

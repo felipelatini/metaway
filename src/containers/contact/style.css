@@ -1,0 +1,144 @@
+#Contact{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+.containerLoading_Contact {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerLoading_Contact img {
+  height: auto;
+  width: 100px;
+}
+
+.containerLoading_Contact label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#containerBody_Contact{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;  
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#conteinerFields_Contact{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.containerFieldColumn_Contact{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  margin-top: 10px;
+}
+
+.containerFieldRow_Contact{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  margin-top: 10px;
+}
+
+.maxWidth170_Contact{
+  max-width: 170px;
+}
+
+.fieldFlex0_Contact{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+.fieldFlex1_Contact{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.containerMessage_Contact {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerMessage_Contact label {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#buttons_Contact{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  justify-content: center;
+}
+
+#buttonConfirm_Contact {
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: rgb(172, 28, 7);
+
+  margin-top: 10px;
+
+  width: 120px;
+  height: 46px;  
+}
+
+#buttonConfirm_Contact label {
+  color: white;
+  font-weight: 600;  
+}
+
+.buttonConfirmReturn_Contact {
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: rgb(26, 26, 26);
+
+  margin-top: 10px;
+
+  width: 120px;
+  height: 46px;  
+}
+
+.buttonConfirmReturn_Contact label {
+  color: white;
+  font-weight: 600;  
+}
+
+.marginTop10_Contact{
+  margin-top: 10px;
+}
+
+.marginLeft5_Contact{
+  margin-left: 5px;
+}
+
+.marginLeft10_Contact{
+  margin-left: 10px;
+}

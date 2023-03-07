@@ -1,0 +1,222 @@
+#header_SearchPerson{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+#containerBody_SearchPerson{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;  
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#titlesRow_SearchPerson{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;  
+
+  border-bottom-width: 2px;
+  border-bottom-style: solid;  
+  border-bottom-color: rgb(26, 26, 26);
+
+  margin: 10px 0;
+  height: 40px;
+}
+
+#titlesColumn_SearchPerson{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;  
+
+  border-bottom-width: 2px;
+  border-bottom-style: solid;  
+  border-bottom-color: rgb(26, 26, 26);
+
+  margin: 10px 0;  
+  height: 40px;
+}
+
+#cpfTitle_SearchPerson{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  align-items: center;
+    
+  padding-left: 10px;
+  min-width: 140px;
+}
+
+.nameTitle_SearchPerson{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+
+  padding-right: 10px;
+}
+
+#textTitle_SearchPerson{
+  font-weight: 600;
+}
+
+#itens_SearchPerson{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.itemGreater500_SearchPerson{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  background-color: aliceblue;
+
+  margin-bottom: 8px;
+  min-height: 40px;
+}
+
+.itemLess500_SearchPerson{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  background-color: aliceblue;
+
+  margin-bottom: 8px;
+  min-height: 40px;
+}
+
+.itemColumn1_SearchPerson{
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}
+
+.itemRow1_SearchPerson{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;  
+  justify-content: center;
+}
+
+.cpf_SearchPerson{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  align-items: center;
+
+  padding-left: 10px;
+  min-width: 140px;
+}
+
+.name_SearchPerson{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-grow: 1;
+
+  padding-right: 10px;
+}
+
+.buttonItem_SearchPerson {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  align-items: center;
+
+  padding-right: 10px;
+}
+
+.buttonItemSelect_SearchPerson{
+  height: 32px;
+  width: 32px;
+}
+
+.buttonItemDelete_SearchPerson{
+  height: 26px;
+  width: 26px;
+}
+
+#containerNoRegistry_SearchPerson{
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+#containerNoRegistry_SearchPerson label{
+  font-weight: 600;
+  text-align: center;
+}
+
+#buttonsRow_SearchPerson{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#buttonsColumn_SearchPerson{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerButton_SearchPerson{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  justify-content: center;
+}
+
+#buttonNew_SearchPerson{
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+  
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: rgb(172, 28, 7);
+   
+  width: 120px;
+  height: 46px;
+}
+
+#buttonNew_SearchPerson label{
+  color: white;
+  font-weight: 600;
+}
+
+#buttonReturn_SearchPerson{
+  display: flex;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+  
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: rgb(26, 26, 26);
+   
+  width: 120px;
+  height: 46px;
+}
+
+#buttonReturn_SearchPerson label{
+  color: white;
+  font-weight: 600;
+}
+
+#footer_SearchPerson{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+}
+
+.marginLeft10_SearchPerson{
+  margin-left: 10px;
+}
